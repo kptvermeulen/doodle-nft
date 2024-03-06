@@ -1,0 +1,139 @@
+#HeaderFV {
+  padding: 125px 0px;
+  position: relative;
+}
+.headerFVContent {
+  margin-top: 30px;
+  position: relative;
+}
+.headerFVContent .column11 h4 {
+  margin-top: 60px;
+  max-width: 300px;
+}
+.headerFVContent .column11 {
+  grid-template-columns: 2fr 3fr;
+}
+#HeaderFV .headerNavItemAccent {
+  margin: 0px;
+  margin-top: 0px;
+  width: 225px;
+  font-size: 30px;
+  padding-top: 5px;
+}
+.headerFVImage {
+  margin-left: 100px;
+  height: 650px;
+}
+.headerFVImage img {
+  width: 100%;
+}
+/*
+#doodle1 {
+  width: 200px;
+  animation: jumping 1s infinite;
+  animation-timing-function: ease-in-out;
+}
+#doodle2 {
+  animation: flying 1.5s infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+}
+
+@keyframes jumping {
+  0% {
+    margin-top: 130px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 130px;
+  }
+}
+@keyframes flying {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: -50px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+  .headerFVContent h4 {
+    margin-bottom: 250px;
+    text-align: center;
+  }
+  .headerFVContent img {
+    position: absolute;
+  }
+  .headerFVContent .column11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .headerFVContent a {
+    display: flex;
+    justify-content: center;
+  }
+
+  @keyframes jumping {
+    0% {
+      bottom: 100px;
+    }
+    50% {
+      bottom: 40px;
+    }
+    100% {
+      bottom: 100px;
+    }
+  }
+}
+*/
+
+#hFVLogo {
+  width: 50%;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 800px) {
+  #hFVLogo {
+    width: 80%;
+  }
+  #HeaderFV .flex {
+    flex-direction: column;
+    margin-bottom: 40px !important;
+  }
+  #hFVText {
+    margin-bottom: 50px !important;
+  }
+}
+#HeaderFV .flex .headerNavItemAccent {
+  margin: 20px 30px;
+}
+#HeaderFV .flex {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+#hFVText {
+  max-width: 550px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+#HeaderFV .maxWidthContainer {
+  position: relative;
+}
+
+#logoDoodle {
+  position: absolute;
+  top: 20px;
+  right: 300px;
+  height: 275px;
+}

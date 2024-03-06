@@ -1,0 +1,71 @@
+#FAQ {
+  padding: 75px 0px;
+  padding-bottom: 250px;
+}
+#FAQ h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#FAQ .stripes {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.FAQGrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.FAQContainer {
+  padding: 30px 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 72, 245, 0.1) -1.46%,
+    #afe9e4 100%
+  );
+  border: 2px solid rgba(0, 72, 245, 0.28);
+  backdrop-filter: blur(14px);
+  cursor: pointer;
+}
+.FAQContainer .flex {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.plus {
+  transition: 0.3s;
+  margin-left: 50px;
+}
+.expandedContainer {
+  background: #ff2f2f;
+}
+#FAQ h4 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+.expandedContainer h4 {
+  color: white !important;
+}
+.expandedContainer .plus {
+  color: white !important;
+}
+.faqAnswer {
+  color: white !important;
+}
+
+.faqAnswer {
+  color: rgba(255, 255, 255, 0.808);
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .FAQGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .FAQGrid svg {
+    min-width: 20px;
+  }
+}

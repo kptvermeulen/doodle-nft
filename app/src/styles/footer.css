@@ -1,0 +1,69 @@
+#footer {
+  width: 100%;
+  padding: 0px 25px;
+  color: white;
+  box-sizing: border-box;
+  background-color: #4a9d41;
+  z-index: 5;
+  position: relative;
+}
+
+#footer .maxWidthContainer {
+  padding: 25px;
+  position: relative;
+}
+#footer .center {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+  #footer .center {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  #footer .btn {
+    margin: 0px !important;
+  }
+  #footer .headerNavItemAccent {
+    margin: 0px;
+  }
+}
+
+#footer .headerLogo img {
+  width: 200px;
+}
+
+#footer .noBtn {
+  color: white;
+}
+#footer .noBtn:hover {
+  color: green;
+}
+
+#jumper {
+  position: absolute;
+  width: 250px;
+  top: -265px;
+  right: 10%;
+}
+
+#footerSprite {
+  width: 1600px;
+  position: relative;
+  bottom: 0px;
+}
+.footerSpriteContainerContainer {
+  width: 400vw;
+  display: flex;
+  justify-content: center;
+}
+.footerSpriteContainer {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  left: 0px;
+  overflow: hidden;
+}

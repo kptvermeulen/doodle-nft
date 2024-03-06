@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+#play * {
+  box-sizing: border-box;
+}
+
+#play body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#play .container {
+  height: 558px;
+  width: 426px;
+  position: relative;
+  margin: 20px auto 0;
+  overflow: hidden;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 4px solid rgba(2, 47, 4, 0.733);
+  box-sizing: border-box;
+}
+
+#play canvas {
+  height: 552px;
+  width: 422px;
+  display: block;
+  background: url(http://i.imgur.com/Y0BMP.png) top left;
+}
+
+#play #scoreBoard {
+  width: 420px;
+  height: 50px;
+  background: rgba(182, 200, 220, 0.7);
+  position: absolute;
+  top: -3px;
+  left: 0;
+  z-index: -1;
+  border-image: url(http://i.imgur.com/5BBsR.png) 100 5 round;
+}
+
+#play #scoreBoard p {
+  font-size: 20px;
+  padding: 0;
+  line-height: 47px;
+  margin: 0px 0 0 5px;
+}
+
+#play img {
+  display: none;
+}
+
+#play #mainMenu,
+#play #gameOverMenu {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#play #gameOverMenu {
+  visibility: hidden;
+}
+
+#play h2,
+#play h3,
+#play h1 {
+  font-weight: normal;
+}
+#play #play h1 {
+  font-size: 60px;
+  color: #5a5816;
+  transform: rotate(-10deg);
+  margin: 0px;
+}
+
+#play h3 {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 80px;
+  width: 220px;
+  margin-bottom: -30px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+}
+#play h3 a {
+  color: #5a5816;
+}
+
+#play .button {
+  width: 105px;
+  height: 31px;
+  background: url(https://i.imgur.com/66keLFD.png) 0 0 no-repeat;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 31px;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  margin-left: -53px;
+}
+
+#play .button.tweet {
+  bottom: 100px;
+  background-position: 0 -90px;
+}
+#play .button.fb {
+  bottom: 150px;
+  background-position: 0 -60px;
+}
+
+#play .info {
+  position: absolute;
+  right: 20px;
+  bottom: 00px;
+  margin: 0;
+  color: green;
+}
+
+#play .info .key {
+  width: 16px;
+  height: 16px;
+  background: url(https://i.imgur.com/66keLFD.png) no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+}
+
+#play .info .key.left {
+  background-position: -92px -621px;
+}
+#play .info .key.right {
+  background-position: -92px -641px;
+}
+
+#play {
+  height: calc(100vh - 230px);
+}
+#play {
+  margin-top: 150px;
+}
+#play h1 {
+  margin-top: 30px;
+}
+#play .button {
+  font-family: var(--font);
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+#userNameGame {
+  margin-top: 40px;
+  width: 250px;
+  padding: 10px 18px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: var(--font);
+  font-size: 18px;
+}
+
+.leaderboardGame {
+  width: 400px;
+  margin: 50px auto;
+}
+.leaderboardRow {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 5px 0px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-family: var(--font);
+  font-weight: normal;
+  display: grid;
+  grid-template-columns: 35px 1fr 50px;
+}
+
+.doodleBody#play {
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 100px;
+}
+#gameContainer {
+  display: none;
+}
+.doodleBody#leaderboard {
+  min-height: 100vh;
+  height: 100%;
+}
+
+#play h4,
+#play h2 {
+  color: white;
+}
+
+#mainMenu h3 {
+}

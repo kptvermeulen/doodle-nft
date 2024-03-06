@@ -1,0 +1,40 @@
+#NFTShowcaseGrid {
+  padding: 100px 0px;
+}
+#NFTShowcaseGrid .column11 {
+  gap: 50px;
+}
+
+#aboveNFTGrid {
+  margin-bottom: 75px;
+  max-width: 800px;
+  text-align: center;
+}
+#belowNFTGrid {
+  margin-top: 75px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.NFTGrid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 20px;
+  margin-top: 30px;
+}
+.NFTGrid img {
+  width: 100%;
+  -webkit-box-shadow: 5px 5px 25px 5px rgba(255, 255, 255, 0.31);
+  box-shadow: 5px 5px 25px 5px rgba(255, 255, 255, 0.31);
+}
+#NFTShowcaseGrid .column11 {
+  position: relative;
+}
+
+#rainbow {
+  position: absolute;
+  width: 300px;
+  top: -80px;
+  left: 80px;
+}
